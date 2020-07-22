@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 import com.gutotech.course.entities.User;
-import com.gutotech.course.resources.UserRepository;
+import com.gutotech.course.repositories.UserRepository;
 
 @Configuration
 @Profile("test")
